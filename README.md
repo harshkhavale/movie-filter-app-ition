@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+**Movie Filter App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎬 **Description:**
+This React application provides a responsive interface for browsing a collection of 100 movies. Users can filter the movies by language, country, and genre using checkboxes. Additionally, the app includes search functionality to find movies by their titles. Pagination is implemented to display 10 movies per page.
 
-## Available Scripts
+🛠️ **Technologies Used:**
+- React
+- Tailwind CSS for styling
+- Material-UI for icons
 
-In the project directory, you can run:
+📦 **Dependencies:**
+- `react`
+- `react-dom`
+- `tailwindcss`
+- `@mui/icons-material`
 
-### `npm start`
+🚀 **Getting Started:**
+1. Clone the repository:
+   ```
+   git clone https://github.com/harshkhavale/movie-filter-app-ition
+   ```
+2. Navigate to the project directory:
+   ```
+   cd movie-filter-app-ition
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Run the application:
+   ```
+   npm start
+   ```
+5. Open your web browser and go to `http://localhost:3000` to view the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔍 **Features:**
+- Display a list of 100 movies with images and detailed information.
+- Filter movies by language, country, and genre using checkboxes.
+- Search for movies by title.
+- Pagination to navigate through the movie list.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌐 **Live Demo:**
+You can view a live demo of the application [here](https://movie-filter-app-ition.vercel.app/).
 
-### `npm test`
+📸 **Screenshots:**
+![screencapture-movie-filter-app-ition-vercel-app-2024-04-30-07_52_24](https://github.com/harshkhavale/movie-filter-app-ition/assets/91471322/44f72eea-6f98-4888-b462-4e3559698589)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screencapture-movie-filter-app-ition-vercel-app-2024-04-30-07_54_45](https://github.com/harshkhavale/movie-filter-app-ition/assets/91471322/b39de705-93fc-4cb6-9536-66ef5ee34168)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔗 **Project Structure:**
+```
+movie-catalog-app/
+|-- public/
+|-- src/
+    |-- components/
+        |-- MovieList.jsx
+        |-- Filters.jsx
+        |-- Movie.jsx
+   
+    |-- constant.js
+    |-- App.js
+    |-- index.css
+    |-- index.js
+|-- README.md
+|-- package.json
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📝 **Notes:**
+- The movie data is provided in the `constant.js` file located in the `src/` directory.
+- Tailwind CSS is used for styling to ensure responsiveness across different screen sizes.
+- Material-UI icons are utilized for the UI elements such as checkboxes and search icon.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎥 **Enjoy exploring the world of movies with our Movie Catalog App!**
